@@ -18,10 +18,54 @@ html {
 }
 
 body {
+  background-color: #145da0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   overflow: hidden;
+}
+
+.container {
+  background-color: #b1d4e0;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  padding: 40px 30px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+h3 {
+  letter-spacing: 1.5px;
+  font-size: 2rem;
+}
+
+.joke {
+  font-size: 3rem;
+  letter-spacing: 0.75px;
+  line-height: 35px;
+  margin: 40px auto;
+  max-width: 600px;
+}
+
+.btn {
+  font-size: 1.6rem;
+  background-color: #0c2d48;
+  border-radius: 10px;
+  color: #fff;
+  padding: 5px 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform, letter-spacing 0.33s ease;
+}
+
+.btn:hover {
+  transform: rotate(-3deg);
+  letter-spacing: 1px;
+}
+
+.btn:active {
+  transform: scale(0.98);
 }
