@@ -1,34 +1,34 @@
-#😂 Random Dad Joke Generator
+# 😂 Random Dad Joke Generator
 
 This is a simple JavaScript project that fetches random dad jokes from the icanhazdadjoke API
 and displays them on the page. It also includes a handy copy-to-clipboard feature so you can quickly share the jokes with friends.
 
-✨ Features
+## ✨ Features
 
-Fetches a new random dad joke at the click of a button
+- Fetches a new random dad joke at the click of a button
+- Displays the joke dynamically in the browser
+- Copy jokes directly to your clipboard with one click
+- Uses the free icanhazdadjoke API
 
-Displays the joke dynamically in the browser
+## 🛠️ How It Works
 
-Copy jokes directly to your clipboard with one click
+1. The "Get Joke" button triggers a function that fetches a random joke in JSON format from the API.
+2. The joke is then displayed inside the #joke element.
+3. The "Copy" button copies the current joke text to the clipboard using the modern navigator.clipboard API.
 
-Uses the free icanhazdadjoke API
+## 📂 Files
 
-🛠️ How It Works
+- index.html → Contains the structure (buttons & joke container)
+- style.css → Styles for layout and design (optional/custom)
+- script.js → Core logic (fetching jokes & clipboard functionality)
 
-The "Get Joke" button triggers a function that fetches a random joke in JSON format from the API.
+## 🚀 Usage
 
-The joke is then displayed inside the #joke element.
+1. Open the link https://g4ieku.github.io/Dad_Jokes/ and start generating jokes instantly!
+2. Click "Get Joke" to see a new random dad joke
+3. Click "Copy" to copy the joke to your clipboard
 
-The "Copy" button copies the current joke text to the clipboard using the modern navigator.clipboard API.
+## 📸 Example in Action
 
-📂 Files
-
-index.html → Contains the structure (buttons & joke container)
-
-style.css → Styles for layout and design (optional/custom)
-
-script.js → Core logic (fetching jokes & clipboard functionality)
-
-🚀 Usage
-
-Open the index.html file in your browser and start generating jokes instantly!
+Joke Generator UI:
+![screenshot](assets/screenshot.png)
