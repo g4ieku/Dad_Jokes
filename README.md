@@ -31,4 +31,4 @@ and displays them on the page. It also includes a handy copy-to-clipboard featur
 ## 📸 Example in Action
 
 Joke Generator UI:
-![screenshot](assets/screenshot.png)
+![screenshot](assets/Screenshot.png)
